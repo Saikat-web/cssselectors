@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+</head>
+<body>
+  
+
+
+    <h1>The CSS element Selector</h1>
+    <style>
+     p {
+        text-align: center;
+        color: red;
+      } 
+      </style>
+
+      <p>Every paragraph will be affected by the style.</p>
+<p id="para1">Me too!</p>
+<p>And me!</p><br><br>
+
+<h1>The CSS id Selector</h1>
+
+<head>
+    <style>
+    #para1 {
+      text-align: center;
+      color: red;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <p id="para1">Hello World!</p>
+    <p>This paragraph is not affected by the style.</p><br><br>
+
+    <h1>The CSS class Selector</h1>
+    <head>
+        <style>
+        .center {
+          text-align: center;
+          color: red;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <h1 class="center">Red and center-aligned heading</h1>
+        <p class="center">Red and center-aligned paragraph.</p>
+
+        <h1>The CSS Universal Selector</h1>
+        <head>
+            <style>
+            * {
+              
+              color: blue;
+            }
+            </style>
+            </head>
+            <body>
+            
+            <h2 class="center">Hello world!</h2>
+            
+            <p>Every element on the page will be affected by the style.</p>
+            <p id="para1">Me too!</p>
+            <p>And me!</p>
+
+            <h1>The CSS Grouping Selector</h1>
+            
+            <head>
+                <style>
+                 h2, p {
+                  /* text-align: center; */
+                  color: red;
+                }
+                </style>
+                </head>
+                <body>
+                
+                <h3 class="center">Hello World!</h3>
+                <h3 class="center">Smaller heading!</h3>
+                <p>This is a paragraph.</p>
+                
+
+
+
+
+
+    
+</body>
+</html>
